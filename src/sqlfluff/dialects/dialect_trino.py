@@ -2,6 +2,7 @@
 
 See https://trino.io/docs/current/language.html
 """
+
 from sqlfluff.core.dialects import load_raw_dialect
 from sqlfluff.core.parser import (
     AnyNumberOf,
